@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Original url:</b>
+  <%= @url.original_url %>
+</p>
+
+<p>
+  <b>Squeezed url:</b>
+  <%= format_squeezed_url_for_display(@site_url, @url) %>
+</p>
+
+
+<%= link_to 'Edit', edit_url_path(@url) %> |
+<%= link_to 'Back', urls_path %>

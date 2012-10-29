@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+google:
+  original_url: "http://www.google.co.uk"
+  squeezed_url: "9bz7n5w2"
+
+yahoo:
+  original_url: "http://www.yahoo.com"
+  squeezed_url: "4qlgxs48"
+
