@@ -12,10 +12,10 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :original_url %><br />
+    <%= f.label :original_url, "Original URL"%><br />
     <%= f.text_field :original_url %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Squeeze URL", class: "squeeze"%>
   </div>
 <% end %>
